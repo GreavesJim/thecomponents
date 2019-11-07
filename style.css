@@ -15,3 +15,60 @@
   position:absolute;
   
   }
+
+  .bg-article{
+    background: url("https://stillmed.olympic.org/media/Images/OlympicOrg/Sports/Winter/Skiing/Snowboard/Snowboard_banner.jpg?interpolation=lanczos-none&resize=1920:640") center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bg-article h1{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    color: white;
+  }
+  .bg-article h3{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    color: white;
+  }
+  .banner-image {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  }
+
+.middle-pics {
+  width: 150px;
+ 
+}
+.middle-section {
+  background-color: #758aa0;
+  display: flex;
+  justify-content: space-evenly;
+ align-content: center;
+}
+
+.emailpart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.links {
+  height: 100px;
+  color: white;
+  background-color: black;
+}
